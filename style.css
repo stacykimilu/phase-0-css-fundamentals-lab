@@ -1,5 +1,52 @@
 body {
+  background-color: grey;
   width: 100%;
   height: 100%;
   margin: 0;
+}
+h1 {
+  color:black;
+}
+
+/* align text to center */
+header{
+  text-align: center;
+}
+/* center the image */
+img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* navigation links */
+nav a{
+text-align: center;  
+background-color:grey;
+padding:10px
+}
+/* image caption centered */
+figcaption{
+  font-size: smaller;
+  text-align: center;
+}
+/* text block featured-property */
+#featured-property p{
+  width: 800px;
+  margin:10px auto;
+  text-align: center;
+}
+/* style the details tag */
+#details{
+overflow: auto;
+min-width:100%;
+background-color: red;
+}
+
+/* styling bottom rows divs */
+#details div{
+  float:left;
+  width: 25%;
+  text-align: center;
+  /* padding: 20px; */
+  /* margin: 30px; */
 }
